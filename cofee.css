@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+/* body{
+   background-color: rgb(26, 2, 2);
+} */
+.container{
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(rgba(33, 11, 11, 0.7),rgba(0,0,0,0.7)),url(./Images/GettyImages-1165807395-2000-28ea3eaf72f34ddaa97d9a54ca0c6025.jpg );
+
+     /* height: 100%;  */
+    
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 80px ;
+}
+.title{
+    color: white;
+    font-size: 65px;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    text-shadow: 3px 3px rgb(187, 187, 160);
+}
+.span1{
+    color: red;
+    
+}
+
+.navbar i{
+    margin-top: -46px;
+    margin-left: -328px;
+}
+
+.listitem{
+list-style: none;
+display: flex;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    justify-content: space-between;
+    font-family: 'Lisu Bosa', serif;
+   
+}
+li a:hover{
+    color: orangered;
+    /* padding: 5px 15px; */
+    /* border: 2px solid white; */
+    /* border-radius: 5px; */
+  
+}
+
+.home{
+    
+  
+    padding: 80px;
+    font-family: 'Lumanosimo', cursive;
+    text-align: center;
+   
+
+}
+ .home h2{
+    font-size: 60px;
+    text-align: center;
+    color:white;
+ }
+
+ .home h3{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+
+ }
+ .p1{
+    text-align: center;
+    color: lemonchiffon;
+    font-size: 22px;
+ }
+ .span2{
+    color: red;
+ }
+
+ .p2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 225px;
+    padding-bottom: 10px;
+ }
+/* 
+ .button{
+   
+    background: transparent;
+
+    padding: 5px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    font-family: 'Lisu Bosa', serif;
+    
+ }
+
+ .button a{
+   color: red;
+   text-decoration: none;
+   
+
+ }
+ .button:hover a{
+   color: azure;
+   
+ } */
+
+ /* shop */
+
+ .shop {
+    margin-top: -50px;
+    /* background: linear-gradient(to bottom, #2d1c1a ,transparent);  */
+
+    
+    background: linear-gradient(rgba(21, 9, 9, 0.7),rgba(0,0,0,0.7)),url(./Images/coffee-beans-roasted.jpg);
+    background-size: cover;
+
+ }
+
+ .shop h2{
+    padding-top: 15px;
+    font-size: 35px;
+    margin-top: 30px;
+    /* margin-bottom: 0px; */
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+
+    
+    
+ }
+
+  .item01{
+ 
+display: flex;
+overflow: hidden;
+justify-content: space-evenly;
+margin-bottom: 15px;
+ } 
+
+ 
+ .item02{
+   display: flex;
+   overflow: hidden;
+   justify-content: space-evenly;
+    } 
+
+
+ .item1{
+    /* float: left; */
+    width: 200px;
+    height: 250px;
+    font-family: 'Lisu Bosa', serif;
+    margin: 40px;
+   /* margin-bottom: 80px; */
+    /* padding: 50px; */
+    /* margin-left: 80px; */
+    text-align: center;
+    background-color:transparent;
+    border: 2px double white;
+    border-radius: 15px;
+ }
+ .item1 img{
+    width: 75%;
+    height: 150px;
+    padding-top: 10px;
+    border-radius: 30px;
+
+ }
+ h4{
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+ }
+ .button1{
+   color: orangered;
+   background: transparent;
+   font-size: 15px;
+   padding: 6px;
+   border-radius: 5px;
+   border-color: aliceblue;
+   font-family: 'Lisu Bosa', serif;
+ }
+ .button1 a{
+   color: red;
+   text-decoration: none;
+ }
+
+ .button1:hover{
+   color: azure;
+   animation: shake 0.75s infinite;
+ }
+
+ 
+@keyframes shake {
+   10%{
+    transform: rotate(15deg);
+   }
+   20%{
+    transform: rotate(-15deg);
+   }
+   30%{
+    transform: rotate(15deg);
+   }
+   40%{
+    transform: rotate(-15deg);
+   }
+}
+
+/* ABOUT */
+.about{
+height: 750px;
+   margin-top: 35px;
+   background: linear-gradient(rgba(21, 9, 9, 0.7),rgba(0,0,0,0.7)),url(./Images/walllll.jpg);
+   background-size: cover;
+}
+
+
+.abouth2{
+     padding-top: 110px;
+     padding-left: 1108px;
+   font-family: 'Dancing Script', cursive;
+   color: #D7E1EC;
+   font-size: 50px;
+   text-shadow: 2px 2px whitesmoke;
+}
+
+.about p{
+   color: white;
+   font-family: 'Lumanosimo', cursive;
+   font-size: 20px;
+   padding-top: 25px;
+  padding-left: 1000px;
+}
+
+/* contact */
+
+.contact{
+   
+height: 820px;
+   margin-top: 35px;
+   background: linear-gradient(rgba(21, 9, 9, 0.7),rgba(0,0,0,0.7)),url(./Images/about2.jpg);
+   background-size: cover;
+}
+
+.contact h2{
+   font-family: 'Dancing Script', cursive;
+   color:  #d3d3d3;
+   font-size: px;
+   padding-top: 650px;
+   text-align: center;
+}
+
+.icon_bar{
+    
+   margin-top:1rem;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.icon{
+  
+   width: 50px;
+   height: 50px;
+display: flex;
+border-radius: 50px;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 10px;
+   
+}
+.icon a{
+   font-size: 25px;
+   color: white;
+}
+.icon:hover{
+   background: linear-gradient(to bottom, #996633 22%, #cc9900 100%);
+   
+}
+.icon:hover a{
+   color: white;
+   animation: shake 0.75s infinite;
+}
+
+@keyframes shake {
+  10%{
+   transform: rotate(15deg);
+  }
+  20%{
+   transform: rotate(-15deg);
+  }
+  30%{
+   transform: rotate(15deg);
+  }
+  40%{
+   transform: rotate(-15deg);
+  }
+  
+
+  
+}
+.conmain{
+   border-color: white;
+   border-radius: 5px;
+}
+
+.final{
+   text-align: center;
+  
+   padding-top: 8px;
+}
+
+
+.final button{
+   padding: 10px;
+   background-color: transparent;
+   color: white;
+   border-color: white;
+}
+
+
+
+
+
